@@ -2,6 +2,10 @@
 
 This repository contains the [Jupyter Notebook](Feature_creation_betacode_for_N1904-TF_dataset.ipynb) used to create a new Text-Fabric feature [betacode](https://github.com/tonyjurg/N1904addons/blob/main/docs/features/betacode.md). The final feature file ([betacode.tf](tf/1.0.0/betacode.tf)) was added to the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository.
 
+## About Text-Fabric
+
+The Text-Fabric framework is designed to facilitate the analysis and manipulation of large-scale textual data, particularly in the context of ancient languages and biblical texts. The engine of Text-Fabric is its powerful Python library, which provides a comprehensive set of tools for processing and querying structured text data efficiently. The software package is accessible at [https://github.com/annotation/text-fabric](https://github.com/annotation/text-fabric).
+
 ## Documentation
 
 Background information on betacode can be found in the following resources:
