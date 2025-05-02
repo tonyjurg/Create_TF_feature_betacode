@@ -1,6 +1,6 @@
 # Create TF feature betacode
 
-This Repository contains the [Jupyter Notebook](Feature_betacode.ipynb) used to create the new Text-Fabric feature [betacode]. The final feature file (betacode.tf) was added to the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository.
+This Repository contains the [Jupyter Notebook](Feature_betacode.ipynb) used to create the new Text-Fabric feature [betacode](https://github.com/tonyjurg/N1904addons/blob/main/docs/features/betacode.md). The final feature file (betacode.tf) was added to the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository.
 
 ## Documentation
 
@@ -18,9 +18,9 @@ The engine for the creation of the feature `betacode` is [beta-code-py](https://
 
 ## License
 
-MIT
+[MIT License, Copyright (c) 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
 
 ## Citation
 
-Please cite this repo if you use the feature set in academic work.
+If you use this repository in your academic work, please cite it.
 
