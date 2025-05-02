@@ -30,5 +30,5 @@ The added betacode feature and this notebook are released under the [MIT Licence
 
 ## Citation
 
-If you use this repository in your academic work, please cite it.
+If you use this repository in your academic work, please [cite it](CITATION.cff).
 
