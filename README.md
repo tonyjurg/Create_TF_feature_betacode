@@ -30,7 +30,7 @@ The added betacode feature and this notebook are released under the [MIT Licence
 
 ## License
 
-[MIT License, Copyright (c) 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
+[MIT License, Copyright © 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
 
 ## Citation
 
