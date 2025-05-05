@@ -26,11 +26,9 @@ The conversion code between Unicode and Betacode is available at [GitHub reposit
 
 The [N1904-TF dataset](https://centerblc.github.io/N1904/) available under [MIT license](https://github.com/CenterBLC/N1904/blob/main/LICENSE.md). Formal reference: Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz. (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. DOI: [10.5281/zenodo.13117911](https://doi.org/10.5281/zenodo.13117910).
 
-The added betacode feature and this notebook are released under the [MIT Licence](LICENSE.md).
-
 ## License
 
-[MIT License, Copyright © 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
+The added betacode feature and this notebook are released under the [MIT License, Copyright © 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
 
 ## Citation
 
