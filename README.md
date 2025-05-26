@@ -33,7 +33,7 @@ The [N1904-TF dataset](https://centerblc.github.io/N1904/) available under [MIT 
 
 ## License
 
-The added betacode feature and this notebook are released under the [MIT License, Copyright © 2025 Tony Jurg](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
+This notebook is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/LICENSE.md)
 
 ## Citation
 
