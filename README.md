@@ -20,7 +20,7 @@ Background information on betacode can be found in the following resources:
 
 ## Attribution and footnotes
 
-The Greek base text is from Nestle1904 Greek New Testament, edited by Eberhard Nestle, published in 1904 by the British and Foreign Bible Society:
+The Greek base text is from [Nestle1904 Greek New Testament](https://centerblc.github.io/N1904/about.html#provenance), edited by Eberhard Nestle, published in 1904 by the British and Foreign Bible Society:
 > Nestle, Eberhard. Η Καινή Διαθήκη Novum Testamentum Graece (New York: Fleming H. Revell Company, 1904).
 The 1913 reprint is available [here](https://archive.org/details/hkainediathekete00lond/), which was transcribed by [Diego Santos](https://sites.google.com/site/nestle1904/home). All this material is in Public domain.
 
