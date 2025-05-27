@@ -2,13 +2,15 @@
 
 # Create TF feature betacode
 
-This repository contains the [Jupyter Notebook](Feature_creation_betacode_for_N1904-TF_dataset.ipynb) used to create a new Text-Fabric feature [betacode](https://github.com/tonyjurg/N1904addons/blob/main/docs/features/betacode.md). The final feature file ([betacode.tf](tf/1.0.0/betacode.tf)) was added to the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository.
+This repository contains the Jupyter Notebook used to create a new Text-Fabric feature [betacode](https://tonyjurg.github.io/N1904addons/features/betacode.html). 
+
+The final feature file ([betacode.tf](tf/1.0.0/betacode.tf)) was added to the package available at the [tonyjurg/N1904addons](https://tonyjurg.github.io/N1904addons/) repository.
 
 ## Production notebook
 
-You can view the notebook on [nbviewer.org](https://nbviewer.org/github/tonyjurg/create_TF_feature_betacode/blob/main/Feature_creation_betacode_for_N1904-TF_dataset.ipynb).
+You can view the production notebook on [nbviewer.org](https://nbviewer.org/github/tonyjurg/create_TF_feature_betacode/blob/main/Feature_creation_betacode_for_N1904-TF_dataset.ipynb).
 
-You can also download it from the [GitHUb repository](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/Feature_creation_betacode_for_N1904-TF_dataset.ipynb).
+Alternative, you can also download it from the [GitHUb repository](https://github.com/tonyjurg/create_TF_feature_betacode/blob/main/Feature_creation_betacode_for_N1904-TF_dataset.ipynb).
 
 ## About Text-Fabric
 
