@@ -5,6 +5,6 @@ authors:
   given-names: "Tony"
   orcid: "https://orcid.org/0000-0002-0343-1346"
 title: "Create TF feature betacode"
-version: 1.0.0
-date-released: 2025-05-02
+version: 1.3
+date-released: 2025-05-26
 url: "https://github.com/tonyjurg/create_TF_feature_betacode"
