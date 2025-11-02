@@ -37,7 +37,7 @@ Beta Code syntax follows the TLG/Perseus convention: [Thesaurus Linguae Graecae�
 The conversion code between Unicode and Beta Code is available at [GitHub repository perseids-tools/beta-code-py](https://github.com/perseids-tools/beta-code-py). This library was made available under the [MIT license](https://github.com/perseids-tools/beta-code-py?tab=MIT-1-ov-file).
 
 The [N1904-TF dataset](https://centerblc.github.io/N1904/) available under [MIT license](https://github.com/CenterBLC/N1904/blob/main/LICENSE.md). Formal reference: 
-> Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz. (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. DOI: [10.5281/zenodo.13117911](https://doi.org/10.5281/zenodo.13117910).
+> Tony Jurg, Saulo de Oliveira Cantanhêde, & Oliver Glanz. (2024). *CenterBLC/N1904: Nestle 1904 Text-Fabric data*. Zenodo. DOI: [10.5281/zenodo.13117910](https://doi.org/10.5281/zenodo.13117910).
 
 ## License
 
