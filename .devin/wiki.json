@@ -1,0 +1,183 @@
+{
+  "repo_notes": [
+    {
+      "content": ""
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "High-level introduction to the Create_TF_feature_betacode project: its purpose, the problem it solves, key components, and how the pages below fit together.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Project Purpose and Background",
+      "purpose": "Explains the scholarly and technical motivation for the project: what Beta Code is, what the N1904 Greek New Testament dataset is, why a betacode feature is useful, and how this tool fits into the broader N1904addons ecosystem.",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Repository Structure and Key Files",
+      "purpose": "Describes every file and directory in the repository (notebook, tf/ output, images/, .gitignore, LICENSE.md, CITATION.cff) and explains the role each plays in the overall workflow.",
+      "parent": "Overview",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Data Pipeline Architecture",
+      "purpose": "Overview of the ETL (Extract-Transform-Load) pipeline that converts the N1904 Unicode Greek text into a betacode TF feature, linking to child pages for each phase.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Environment Setup and Data Loading",
+      "purpose": "Details how the Jupyter Notebook environment is configured, how the N1904 corpus is loaded via the Text-Fabric API (use(), Fabric()), version pinning to 1.0.0, and the autoreload magic that keeps TF scripts fresh.",
+      "parent": "Data Pipeline Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Unicode-to-Beta Code Transformation",
+      "purpose": "Deep dive into the core conversion loop: iterating over F.otype.s('word'), retrieving Unicode text via F.text.v(), calling beta_code.greek_to_beta_code(), building the betaCodeDictionary, and handling edge cases (empty nodes, diacritics, capitalization).",
+      "parent": "Data Pipeline Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Feature Serialization and Verification",
+      "purpose": "Explains how the betaCodeDictionary is serialized to betacode.tf using TF.save(), the metadata written into the file header (createMetadata helper, provenance, license, version), and the verification step that reloads the dataset via N1904_ADD and checks A.isLoaded('betacode').",
+      "parent": "Data Pipeline Architecture",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Output: The betacode.tf Feature File",
+      "purpose": "Overview of the generated artifact and its role in the N1904addons ecosystem, linking to child pages for format details and integration.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Text-Fabric Feature File Format",
+      "purpose": "Documents the structure of betacode.tf: the @ metadata header fields (node, valueType, writtenBy, dateWritten, version, license, provenance, etc.), the line-based node-to-value data section, and how the TF engine parses and indexes the file.",
+      "parent": "Output: The betacode.tf Feature File",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Beta Code Encoding Conventions",
+      "purpose": "Reference guide to the TLG/Perseus Beta Code dialect used in the output: ASCII symbol mappings for Greek letters, capitalization (asterisk prefix), breathing marks (parentheses), accent marks (slash, backslash, equals), iota subscript, and punctuation tokenization as seen in the actual betacode.tf data.",
+      "parent": "Output: The betacode.tf Feature File",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Integration with N1904addons",
+      "purpose": "Explains how the generated betacode.tf file is side-loaded into the N1904-TF environment without modifying the core CenterBLC/N1904 dataset, the addons architecture, and how downstream users can load the feature alongside core features like lemma, sp, and morph.",
+      "parent": "Output: The betacode.tf Feature File",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Exploratory Notebook (Untitled.ipynb)",
+      "purpose": "Overview of the scratch/research notebook used during development, linking to child pages for its two main concerns: the extended N1904addons feature set and the syntax-view query interface.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "N1904addons Extended Feature Set",
+      "purpose": "Documents the additional linguistic features available via the N1904addons module loaded in the exploratory notebook: betacode, translit, gloss, Morpheus analytic blocks (ma_class, ma_entropy, mm_num_blocks, mm_num_lemmas, ms1_–ms8_ summary groups), and how they complement the core N1904 features.",
+      "parent": "Exploratory Notebook (Untitled.ipynb)",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Text-Fabric Search and Syntax-View Queries",
+      "purpose": "Explains the TF search DSL used in the exploratory notebook: the indentation-based query template syntax, node-type hierarchy (book/chapter/verse/sentence/wg/clause/phrase/word), N1904_ADD.search() and N1904_ADD.show() interfaces, hiddenTypes filtering, and the CSS-based syntax-tree rendering.",
+      "parent": "Exploratory Notebook (Untitled.ipynb)",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Licensing, Attribution, and Citation",
+      "purpose": "Overview of the legal and attribution framework for the project, linking to child pages for the license terms and citation guidance.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "CC BY 4.0 License Terms",
+      "purpose": "Summarizes the Creative Commons Attribution 4.0 International license under which the notebook and betacode.tf are released: permitted uses (download, process, modify, publish, build applications), the attribution requirement (link to tonyjurg/N1904addons), no-additional-restrictions clause, and the as-is warranty disclaimer. Also covers the MIT licenses of the upstream dependencies (beta-code-py, N1904-TF).",
+      "parent": "Licensing, Attribution, and Citation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Citation and Academic Attribution",
+      "purpose": "Explains how to cite the repository in academic work using the CITATION.cff file (CFF 1.2.0 format), lists the author (Tony Jurg, ORCID), current version (1.3, released 2025-05-26), and provides the formal references for the upstream N1904-TF dataset (Zenodo DOI) and the Nestle 1904 source text.",
+      "parent": "Licensing, Attribution, and Citation",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    },
+    {
+      "title": "Glossary",
+      "purpose": "Definitions of all codebase-specific terms, domain jargon, abbreviations, and framework concepts that an onboarding engineer or digital humanist would need to understand when working with this repository.",
+      "page_notes": [
+        {
+          "content": ""
+        }
+      ]
+    }
+  ]
+}
