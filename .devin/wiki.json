@@ -16,7 +16,7 @@
     },
     {
       "title": "Project Purpose and Background",
-      "purpose": "Explains the scholarly and technical motivation for the project: what Beta Code is, what the N1904 Greek New Testament dataset is, why a betacode feature is useful, and how this tool fits into the broader N1904addons ecosystem.",
+      "purpose": "Explains the scholarly and technical motivation for the project: what Beta Code is, that it is needed to be added to the N1904-TF datase to allow interfacing with legacy morphological parsers like Morpheus which depends on betacode. The created Text-Fabric feature will be included in the N1904addons ecosystem where it is playing a major foundational role.",
       "parent": "Overview",
       "page_notes": [
         {
@@ -36,7 +36,7 @@
     },
     {
       "title": "Data Pipeline Architecture",
-      "purpose": "Overview of the ETL (Extract-Transform-Load) pipeline that converts the N1904 Unicode Greek text into a betacode TF feature, linking to child pages for each phase.",
+      "purpose": "Overview of the ETL (Extract-Transform-Load) pipeline that converts the N1904 Unicode Greek text (i.e. each individual word/token) into its corresponding betacode equivalent (stored in TF feature called 'betacode'), linking to child pages for each phase.",
       "page_notes": [
         {
           "content": ""
@@ -75,7 +75,7 @@
     },
     {
       "title": "Output: The betacode.tf Feature File",
-      "purpose": "Overview of the generated artifact and its role in the N1904addons ecosystem, linking to child pages for format details and integration.",
+      "purpose": "Overview of the generated artifact and its role in the N1904addons ecosystem (namely to allow translaing back and forth between betacode and unicode), linking to child pages for format details and integration.",
       "page_notes": [
         {
           "content": ""
@@ -104,7 +104,7 @@
     },
     {
       "title": "Integration with N1904addons",
-      "purpose": "Explains how the generated betacode.tf file is side-loaded into the N1904-TF environment without modifying the core CenterBLC/N1904 dataset, the addons architecture, and how downstream users can load the feature alongside core features like lemma, sp, and morph.",
+      "purpose": "Explains how the generated betacode.tf file is side-loaded into the N1904-TF environment without modifying the core CenterBLC/N1904 dataset (it just adds functionality), the addons architecture, and how downstream users can load the feature alongside core features like lemma, sp, and morph.",
       "parent": "Output: The betacode.tf Feature File",
       "page_notes": [
         {
